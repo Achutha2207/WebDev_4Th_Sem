@@ -3,22 +3,24 @@ color:white;}
 body{
 background-color: black;}
 h1{
-color: white;}
+color: whitesmoke;}
 p{
-color:aliceblue}
+color:wheat;}
 table{
-color:aliceblue;}
+color:wheat;}
 tr{
-color:aliceblue;}
+color:wheat;}
 td{
-color: aliceblue;}
+color: whitesmoke;}
 th{
-color:aliceblue;}
+color:wheat;}
 td{
-border:3px solid white;}
+border:3px solid; }
+td{
+border-color: wheat;}
 ul{
-color:azure;}
+color:wheat;}
 ol{
-color:aliceblue;}
+color:wheat;}
 del{
 color:beige;}
