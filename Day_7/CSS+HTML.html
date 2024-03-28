@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Integrate HTML+CSS</title>
+<link rel="stylesheet" href="CSS+HTML.css">
+
+<!-- Usage Of Internal CSS -->
+
+<style>
+h1{
+color:red;}
+li{
+color:aqua;}
+
+
+</style>
 </head>
+
 <body>
-    
+<h1 style="color: aqua;">Integrating HTML+CSS Can Be Done In 3 Ways</h1>
+
+<div>
+<ul>
+<li style="color:blanchedalmond">Inline</li>
+<li style="color:blanchedalmond">Internal</li>
+<li style="color:blanchedalmond">External</li>
+</ul>
+</div>
+<div style="color:aqua">INLINE CSS</div>
+<pre><span style="color:blanchedalmond">Usage Of Inline Css Is done by Inserting The STYLE attribute
+to tags eg: &lt;p style="color:green;"&gt; &lt;p&gt;
+INLINE CSS referes to as if we are adding style attribute
+inline each line and to every-line to style the html code</span></pre>
+
+<div style="color:aqua">INTERNAL CSS</div>
+<pre><span style="color:antiquewhite">Using the style tag inside the head tag to mention the
+Styling for common elements in HTML eg:
+{INSIDE HEAD TAG} &lt;style&gt; h1{color:grey;} &lt;/style&gt;
+here for all the h1 tag common color grey is applied
+This is a massive advantage contrary to INLINE CSS
+Where we need to add the style attribute to each and every
+Element in the file to style it
+
+But,in INTERNAL CSS we Have the advantage of
+Heirarchicaly Styling [Styling for the same class of tags] </span></pre>
+
+<div style="color:aqua">EXTERNAL CSS</div>
+<pre><span style="color: antiquewhite;">We use the <q>STYLING</q> Independently And seperately.
+We seperate CSS and HTML and treat them as seperate entities
+Where this gives us the advantage of dividing the strengths of
+HTML and CSS as a core language and use them as we need.
+It also helps us seperate the UI part with the styling part
+so that one can work on the elements and another person
+can work on the styling part we generally use
+&lt;link rel="stylesheet" href="CSS_FILE_NAME.css"&gt;
+
+Usage of EXTERNAL CSS is also benificial to the client as
+he/she can link/unlink the css file / add another css file/
+Test multiple stylesheets to evaluate which one of those files
+best fits his/her needs of the Website's Front-End
+</span></pre>
 </body>
+
 </html>
