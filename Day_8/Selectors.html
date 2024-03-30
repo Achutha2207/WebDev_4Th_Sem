@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <link rel="stylesheet" href="Selectors.css">
+</head>
+
+<pre><h1 class="er">Usage Of Selectors</h1></pre>
+<pre><div>There Are Many types of Selectors:
+<ul><li>Element</li>
+<li>Class</li>
+<li>ID</li>
+<li>Universal</li>
+<li>Child</li>
+<li>Descendent</li>
+<li>Pseudo</li>
+</ul>
+<div class="seperators">*****************************************************************************************</div></div></pre>
+<p class="headings">Element Selectors</p>
+<pre><div>It is used to style all the elements universally eg:
+<p id="casca">div{color:blue;}
+</p>This selection makes all the tags named div to be
+styled in a specific manner specified inside the CSS function
+
+
+<div class="seperators">*****************************************************************************************</div></div></pre>
+<p class="headings">Class Selectors</p>
+
+<pre><div>When we mention s class attribute inside a tag then
+We can accsess those tags using the . operator and styling
+them using css for example
+<p id="berserk">&lt;p class="green"&gt; &lt;/p&gt;</p>We can access the above p tag using .green in CSS file
+eg: .green{color:aqua;}
+<pre class="seperators">*****************************************************************************************</pre>
+</div>
+<p class="headings">Id Selectors
+<pre><div></p>We can give id to a specific tag and access that tag using
+# operator in CSS file and style it further for example
+<p id ="guts">&lt;span id="guts"&gt; &lt;/span&gt;</p>I can use # operator to access id's of any tags eg:
+<p id="griffith">#guts{color:grey;}</p><div class="seperators">*****************************************************************************************</div></div></pre>
+<p class="headings">Child Selectors</p>
+<pre><div>If I want to say that <q cite="https://www.google.com">I only want to style the children of <q>X</q> Tags</q>
+Then I use chile selectors which will only style the specified
+child of a specified parent eg:
+<p id="zodd">span &gt; div { color: wheat;} </p>This will only style the div tag only when its a parent of span
+tag and not a child of any other tags eg:
+<p id="charlotte">&lt;span&gt;
+&lt;nav&gt;
+&lt;div&gt;</p>This div cant be considered styled because its not the child of span
+but its a descendent of span tag {Inside a nav tag}.
+<pre class="seperators">*****************************************************************************************</pre>
+</div>
+</pre>
+<p class="headings">Descendent Selectors</p>
+<pre><div>Used to style if <q>I need to style the descendents of a specific tag we
+simply remove the &gt; [Child of symbol] symbol in the Child selector</q>
+It has syntax as :
+<p id="pippin">parent child {color:blue;}
+<pre class="seperators">*****************************************************************************************</pre>
+</p>
+</div>
+</pre>
+<p class="headings">Universal Selector</p>
+<pre><div>We use it to include all the elements in the HTML file and assign a specific
+functionality to it for eg: allign all elements to left.
+All elements of HTML file can be accessed using * operator eg:
+<p id="behilit">*{
+margin:0;
+padding:0;}</p><pre class="seperators">*****************************************************************************************</pre>
+</div>
+</pre>
+<p class="headings">Pseudo Selectors</p>
+<pre><div>Selectors which are fake : Where styling of the elements are not fixed but
+They change as the client interacts with the website for eg: I want the
+Hyperlink to be red after it is visted by the client / I want to add a background
+color to the url whenever it is hovered {by a mouse}.
+
+<q id="ecclipse">Styling of the elements is dependent on specific actions performed by the client</q>
+
+<a href="http://100.115.92.195:3000" target="_blank"> My Website</a>
+<a href="http://100.115.92.195:3000/WebDev" target="_blank"> WebDev</a>
+
+Many pseudo selectors are there ; some are :
+<ul><li>Visited</li>
+<li>Link</li>
+<li>Active</li>
+<li>Hover</li>
+<li>First-Child</li></ul></div></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

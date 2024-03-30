@@ -1,0 +1,43 @@
+body{
+background-color: #440b0b;}
+.er{
+color: rgb(177, 165, 149);}
+
+pre > div{
+color:rgb(230, 230, 56);}
+
+#ecclipse , #behilit , #pippin ,#charlotte, #zodd ,#griffith ,#berserk , #guts , #casca{
+color:aqua;}
+
+.headings{
+color:antiquewhite;}
+
+.seperators{
+color:red;}
+
+/* *{
+margin: 10px;
+padding: 0;} */
+
+/* Pseudo selectors */
+
+a:visited{
+color:grey;}
+
+a:link{
+color:greenyellow;}
+
+a:active{
+background-color: violet;}
+
+div:hover{
+background-color: black;}
+
+a:hover{
+background-color: aliceblue;}
+
+pre:first-child:hover{
+background-color: blueviolet;}
+
+.headings:hover{
+background-color: blueviolet;}
