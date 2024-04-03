@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <link rel="stylesheet" href="Box_model.css">
+</head>
+
+<body>
+<h1 class="headings">Box Model</h1>
+<p>For any element there is </p>
+
+<div>
+<ul><li>Margin</li>
+<li>Border</li>
+<li>Padding</li>
+</ul></div>
+
+<div class="div"><p class="contents">Margin</p>
+<p>It is the outter most layer in a box </p>
+<p class="contents">Border</p>
+<div>Border is an attribute to add boundary to the elements</div>
+<p class="contents">Padding</p>
+Padding is the inner most layer of an element
+<br>
+<br>
+<div><img src="Boxmodel.jpeg" alt="Box-Model" width="800" height="500">
+</div>
+</div>
+<div class="s box1">Normal Tags {0,0}</div>
+<div class="s box2">Boxed Tags {10,10}</div>
+<div><q>box-sizing:border-box;</q> Is a declaration used to say to the Compiler</div>
+<div>That the Height and Width attributes of the respective box is the sum of </div>
+<ul><li>Contents</li>
+<li>Border</li>
+<li>Padding</li>
+</ul>
+<div> Elements [But margin is not included because it is outside the box] </div>
+<div>Essentially saying to the compiler that this is the <q>Total Size Of The Element/Tag</q></div>
+<div>But if we dont include the box-sizing then the width and height are given only to the contents</div>
+<div>And not the padding / border / margin They are given seperately</div>
+
+
+
+<div style = "
+color: wheat;
+margin:20px;
+padding: 20px;
+width: 500px;
+height: 500px;
+border: 20px solid blue;
+background-color: red;
+box-sizing: border-box;
+">I am a box</div>
+
+
+
+
+<div style = "
+color: wheat;
+margin:60px;
+padding: 20px;
+width: 500px;
+height: 500px;
+border: 20px solid blue;
+background-color: red;
+box-sizing: border-box;
+">I am a box What the fuck bro
+The margins are shared but not
+<div>Computed . The actual margin inbetween my legs should be</div>
+<div>20px+20px=40px but it is 20px margin inbetween my thighs</div>
+<div>Its sad to see my margin is below average I cant be a bitch now</div></div>
+
+
+
+
+
+
+
+</body>
+</html>
