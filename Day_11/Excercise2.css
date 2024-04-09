@@ -1,0 +1,22 @@
+div > p:first-child{
+background-color: yellow;
+color: red;}
+
+div p{
+background-color: blue;
+color:rgb(256,256,256);}
+
+body{
+background-color: blueviolet;}
+
+.head{
+color: rgba(1,0,0,1);
+background-color: red;}
+
+
+/*Additionaly I can Also Style Like This  */
+
+/* 
+div :nth-child(1){
+	color: red;
+	background-color: blue;} */

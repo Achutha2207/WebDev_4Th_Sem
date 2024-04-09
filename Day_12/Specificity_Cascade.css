@@ -1,0 +1,26 @@
+body{
+background-color: black;}
+
+h1{
+color:red;}
+
+.yellow{
+color:yellowgreen;}
+
+.cred{
+color:red;}
+
+.cpurple{
+color:purple;}
+
+.h{
+color:red;}
+
+[data-x=a]{
+color:white;}
+
+.a{
+color:white !important;}
+
+.a{
+color:green;}

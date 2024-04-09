@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=\, initial-scale=1.0">
+	<title>Specificity And Cascade</title>
+	<link rel="stylesheet" href="Specificity_Cascade.css".css">
+</head>
+<body>
+	
+	<div>
+	<h1 class="yellow cred cpurple ">CSS SPECIFICITY</h1>
+	
+	<div>
+		<p class="h">Attribute Selector</p>
+
+		<pre class="h"> &lt;p data-x="a"&gt; Hello &lt;/p&gt;</pre>
+		<pre class="h">We Can Style This As</pre>
+		<pre data-x="a"  class="h">[data-x=a] {color:white;}</pre>
+
+		<p class="h ">Order of overriding an element in css is</p>
+		<p class="h a">!important keyword>>INLINE>>ID SELECTOR>>CLASS / ATTRIBUTE SELECTOR>>ELEMENT SLELECTOR>>UNIVERSAL SELECTOR</p>
+		<p class="h" >User Agent Style Sheet {If we dont style any element in out html file then the browser will have its own styling know as uas}</p>
+		<p class="h"></p>
+		<pre class="a">h3 {
+	display: block;                                    user agent stylesheet
+	h3 {
+	font-size: 1.17em;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold; }
+
+This will apppear when I go to inspect>Styles>Scroll down</pre>
+	</div>
+
+	<pre class="h">Specificity Calculation</pre>
+	<pre class="a">Universal Selector {*}                -&gt;  0
+Element/pseudo Selector               -&gt;  1
+Class/Attribute Selector/Pseudo Class -&gt;  10
+ID Slector                            -&gt;  100
+Inline Slector                        -&gt;  1000
+!important		              -&gt;  10000
+	</pre>
+	<pre class="h">If the styling is</pre>
+
+	<pre class="a">h1.red{ color :  red ; }
+
+then s=s(element + class) = 1 + 10 = 11 ;
+	</pre>
+	<pre class="h">If I target same element using its class , Id , inline , external , internal ,universal, pseudo class , attribute etc
+we will tell the cascading algo to calculate the SPECIFICITY value and style the hoe element acc to &gt;est value
+	</pre>
+	<pre class="a"></pre>
+	<pre class="a">
+Another Point To Remember Is :hover is a CLASS SELECTOR
+	</pre>
+	</div>
+	
+	
+</body>
+</html>
