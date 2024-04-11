@@ -1,0 +1,80 @@
+body {
+	background-color: black;
+}
+
+.box {
+	color: red;
+	word-spacing: 20px;
+	letter-spacing: 4px;
+	font-family: fantasy;
+	margin-bottom: 10px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	color: azure;
+}
+
+.box2 {
+	color: white;
+}
+
+.impo {
+	letter-spacing: 3px;
+}
+
+.block {
+	display: block;
+	border: 3px solid green;
+	border-radius: 20px;
+}
+
+.inline {
+	border: 3px solid green;
+	border-radius:20px
+}
+
+
+
+.cont {
+	display: inline-block;
+	border: 3px solid green;
+padding:45px;
+margin:34px;
+display: inline-flex;
+justify-content: center;
+}
+
+.headings{
+	color:red;
+	letter-spacing: 5px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+
+
+.contents{
+	color:whitesmoke;}
+
+.shadow{
+	border: 2px solid green;
+	color:yellow;
+	padding: 45px;
+	text-shadow: 14px 20px 2px white;
+	box-shadow: 13px 20px 6px #f3f3f1;}
+
+
+.cc{
+	outline-offset: 2px;
+	outline:20px solid red;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	border:4px solid yellow;
+	border-radius: 30px;
+	margin-bottom: 50px;
+}
+
+.footer{
+	margin-bottom:20px;
+}
