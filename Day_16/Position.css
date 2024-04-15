@@ -1,0 +1,52 @@
+body {
+	background-color: rgb(26, 30, 43);
+}
+
+
+h1 {
+	color: rgb(38, 190, 210);
+	margin-bottom: 20px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	color: rgb(8, 0, 255);
+}
+
+
+.box {
+	border: 2px solid black;
+	height: 133px;
+	width: 80vw;
+	margin: 3px;
+	padding: 3px;
+}
+
+.box1 {
+	position:relative;
+	background-color: grey;
+	z-index:2;
+}
+
+.box2 {
+	top:-70px;
+	left:30px;
+	z-index: 1;
+position:relative;
+	background-color: grey;
+}
+
+.box3 {
+	background-color: grey;
+}
+
+.box4 {
+	background-color: grey;
+}
+
+.text{
+	color:red;
+background-color: yellow;
+
+}
