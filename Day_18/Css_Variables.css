@@ -1,0 +1,49 @@
+body{
+	background-color: aquamarine;}
+
+.nav{
+	/* background-color: red; */
+background-color: var(--color,green);
+
+
+}
+
+	.container{
+		/* background-color: chartreuse; */
+	background-color: var(---seccolor);
+	
+	
+	}
+
+	*{
+		margin: 0;
+	padding: 0;}
+
+ul li {
+	list-style: none;
+	/* padding:34px; */
+	padding:var(--xxx);
+
+
+
+}
+
+ul{
+	display: flex;}
+
+:root{
+--color:blue;
+---seccolor:white;
+--xxx:44px;
+--op:.73;
+--display:absolute;
+}
+
+
+
+ul li:first-child{
+	--color:rgb(255, 0, 0);
+	background-color:var(--color);
+	opacity:var(--op);
+	/* position: var(--display); */
+}
