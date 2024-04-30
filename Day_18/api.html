@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Quote App</h2>
+
+<button onclick="getQuote()">Get Quote</button>
+
+<p id="quote"></p>
+
+<script>
+function getQuote() {
+  fetch('https://type.fit/api/quotes')
+    .then(response => response.json())
+    .then(data => {
+      var randomIndex = Math.floor(Math.random() * data.length);
+      var randomQuote = data[randomIndex];
+      document.getElementById('quote').innerHTML = randomQuote.text + ' - ' + randomQuote.author;
+    })
+    .catch(error => console.error('Error:', error));
+}
+</script>
+
+</body>
+</html>

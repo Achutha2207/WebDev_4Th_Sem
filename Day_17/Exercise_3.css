@@ -50,6 +50,7 @@ body{
 	display: none;}
 
 .read{
+	cursor: pointer;
 	display: inline;
 	margin-top: 40px;
 	margin-left: 144px;
@@ -58,8 +59,16 @@ body{
 	background-color: green;
 }
 
+
+.read:hover{
+	background-color: red;}
+
 .words{
 	margin-bottom: 30px;}
 
 h1{
 	color:blanchedalmond;}
+
+
+.out{
+	display: flex;}
