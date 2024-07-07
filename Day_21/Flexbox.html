@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="Flexbox.css".css">
+    <style>
+        .container{
+            border:2px solid black;
+            display:flex;
+            container:80vh;
+            /* justify-content: center; */
+            align-items:center;
+           /* flex-direction:row-reverse  ;*/
+           flex-wrap: wrap;
+           flex-flow: row wrap;
+           gap: 10px 10px;
+
+        
+        }
+
+        .order1{
+            order:1;
+            flex-grow: 1;
+
+        }
+
+        .order2{
+            order : 2;
+
+        }
+        .order3{
+            order:3;
+        }
+        .items{
+            height: 140px;
+            width:140px;
+            background-color: red;
+            border:2px solid black;
+            flex-grow: 1;
+            
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Flexbox</h1> 
+    <div>Default allignment of the items in css in left to right</div>
+    <div>Mean Axis &nbsp;&nbsp;&nbsp; -----------------------------------&gt;</div>
+    <div>Cross Axix <pre>|
+|
+|
+|
+V    
+</pre>
+<div>Justify Content property works wrt main and cross Axis</div>
+<div>If flex direction is column then justfy content applies for elements wrt to column main axis</div>
+<div>Is row then it applies wrt to row main axis</div>
+<img src="axes.png" alt="Image">
+        
+    </div>   
+    <div>Order of all the items at default is set to 0</div>
+    <div>By ddefault flex-grow is 0</div>
+    <main>
+        <div class="container">
+            <div class="items order1">1</div>
+            <div class="items order2">2</div>
+            <div class="items">3</div>
+            <div class="items">4</div>
+            <div class="items">1</div>
+            <div class="items">2</div>
+            <div class="items">3</div>
+            <div class="items">4</div>
+            <div class="items">1</div>
+            <div class="items">2</div>
+            <div class="items">3</div>
+            <div class="items">4</div>
+            <div class="items">1</div>
+            <div class="items">2</div>
+            <div class="items">3</div>
+            <div class="items">4</div>
+            <div class="items">1</div>
+            <div class="items">2</div>
+            <div class="items">3</div>
+            <div class="items">4</div>
+            <div class="items">1</div>
+            <div class="items">2</div>
+            <div class="items">3</div>
+            <div class="items">4</div>
+            <div class="items">1</div>
+            <div class="items">2</div>
+            <div class="items">3</div>
+            <div class="items">4</div>
+            <div class="items">1</div>
+            <div class="items">2</div>
+            <div class="items">3</div>
+            <div class="items">4</div>
+            <div class="items">1</div>
+            <div class="items">2</div>
+            <div class="items">3</div>
+            <div class="items">4</div>
+            <div class="items">1</div>
+            <div class="items">2</div>
+            <div class="items">3</div>
+            <div class="items">4</div>
+            <div class="items">1</div>
+            <div class="items">2</div>
+            <div class="items">3</div>
+            <div class="items">4</div>
+            <div class="items">1</div>
+            <div class="items">2</div>
+            <div class="items">3</div>
+            <div class="items">4</div><div class="items">1</div>
+            <div class="items">2</div>
+            <div class="items">3</div>
+            <div class="items">4</div><div class="items">1</div>
+            <div class="items">2</div>
+            <div class="items">3</div>
+            <div class="items">4</div>
+         
+
+
+        </div>
+    </main>
+</body>
+</html>
