@@ -1,0 +1,93 @@
+typescript is a superset of js and adds static typing to the language 
+it helps us catch errors earlier in the prod
+
+REACT is a js library which is used for building dynamic and interactive ui 
+2011 created by fb
+for front end development
+
+html->parsed into tree like structure DOM document object model
+
+in react we use small reusable components 
+react will take care of efficiently managing the DOM elements 
+
+react app is a tree of application with APP being root and children being components
+
+vite is a js tool 
+
+start project 
+node --version
+
+npm create vite@latest
+choose front end and js
+name the project 
+cd into the project 
+install all the 3rd party dependencies and packages
+
+npm i
+
+run the project
+
+npm run dev 
+
+
+-------------------------------------------------------------------
+
+never touch node_modules folder
+
+.ts -> typescript 
+.tsx -> react components
+
+use pascal case while creating react components
+
+
+
+
+self closing syntax <Message/> message is a react component
+
+hmr-> hot module replacement
+
+how does react works?
+it takes components and create a data structure called VIRTUAL DOM 
+
+Manipulating the DOM directly can be slow because the browser needs to reflow and repaint every time a change is made.
+
+Diffing:
+
+React compares the new virtual DOM with the old one. It detects which list items have changed (added or removed).
+
+Performance Issues with Plain JavaScript:
+Direct Manipulation: Every change directly affects the real DOM, causing multiple reflows and repaints, which can degrade performance, especially in complex applications with frequent updates.
+
+Performance: Since React only updates the parts of the real DOM that need to change, it minimizes reflows and repaints, leading to better performance.
+Declarative Approach: You describe the desired UI state, and React handles the updates efficiently without direct manipulation of the DOM
+
+
+
+-----------------------------------------------------------------------------------------------------
+react course harry 
+
+3-9-24
+
+concepts -> props , states
+components in react is bsaed on 2 elements
+class based compinents and function based components
+
+js
+3 ways to declare a variabel 
+let , var , const 
+
+data types in javascript 
+numbers , strings , objects , boolean , undefined , null 
+
+asynchronous nature of js
+promises in js
+
+jsx -> 
+camel case 
+
+jsx fragment inside return 
+<>
+</>
+
+inside {} we will write or include js code
+babel compiles jsx 
