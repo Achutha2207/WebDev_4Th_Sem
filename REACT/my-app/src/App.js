@@ -1,44 +1,54 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
-
-let name = "Achutha";
 
 function App() {
   return (
     <>
-      <h1>Hello {name}</h1>
-      <nav>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <a className="navbar-brand" href="/">
+          TextUtils
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item active">
+              <a className="nav-link" href="/">
+                Home <span className="sr-only">(current)</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/">
+                About
+              </a>
+            </li>
+          </ul>
+          <form className="form-inline my-2 my-lg-0">
+            <input
+              className="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              className="btn btn-outline-success my-2 my-sm-0"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>
       </nav>
-      <div className="conatiner">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iure
-          nostrum ducimus aspernatur sed fugiat temporibus hic quaerat
-          reprehenderit omnis dolores, ex ipsam consequuntur commodi dolorum.
-          Dolorum, quod nisi aspernatur libero consectetur atque obcaecati quia
-          nemo rem illo, repudiandae excepturi unde iusto cupiditate porro fuga
-          laborum, veritatis possimus dolores deserunt? Fuga molestias dolorem
-          similique? A architecto, ducimus animi dicta ut similique quis nulla
-          delectus numquam fuga quasi ex nihil, facilis molestiae facere, veniam
-          voluptate assumenda deleniti! Ipsum libero eius soluta est esse nisi
-          accusamus adipisci assumenda omnis ex, voluptas sequi placeat beatae.
-          Temporibus reprehenderit sequi voluptates consectetur ipsum totam
-          optio officia, accusantium laborum minima explicabo impedit rerum
-          delectus cumque at, cupiditate exercitationem aspernatur quae! Beatae
-          doloremque quia excepturi consequuntur deserunt accusamus, animi
-          molestiae corporis, pariatur eius fuga rem at veniam tempore nemo
-          voluptatem aliquid. Excepturi ratione sunt beatae molestiae a harum
-          ipsum eaque. Ipsum, perspiciatis eius dolores deleniti fugit nihil
-          quas perferendis sunt laudantium excepturi officiis nostrum
-          doloremque, a, quibusdam voluptas velit. Molestias nam dolores at
-          tempora, provident incidunt repellat et ullam! Ducimus itaque ut esse
-          error harum odio animi architecto quo repudiandae adipisci excepturi
-          quibusdam, consequuntur voluptatibus, ab deserunt beatae. Magnam dolor
-          rerum quae, facere non quod. Eveniet, dolores!
-        </p>
-      </div>
     </>
   );
 }
