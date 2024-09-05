@@ -91,3 +91,65 @@ jsx fragment inside return
 
 inside {} we will write or include js code
 babel compiles jsx 
+
+
+------------------------------------------------------------------------
+
+ctrl+f replace text in vs code
+bootatrap is a css framework (copy paste ui components)
+
+props in react 
+extention needs study -> ES7 React / Redux / GraphQL /React-Native
+
+js concept 
+named export and default export 
+
+if in any module Im exporting elements by default then I dont need to use {} 
+
+export default(variable_name);
+
+if Im exporting vanila then / without default then use {}
+the variable name acts as a global variable name
+
+export {a};
+
+while importing it I should use the same name of the variable
+
+import {a} from "";
+but not import x -> invalid 
+
+in case of 
+
+export default(a);
+import anything from ""; -> valid because we are exporting it by default 
+
+
+=======================================================================
+1st react component 
+understand props 
+
+
+props -> keyword for argument within a function based component 
+
+proptype-> set the constraint of what the prop type should be when used externally 
+
+ex -> export default function Navbar(props){
+    return(
+        <>
+        //code
+        {props.title}
+        </>
+    )
+}
+
+Navbar.prompType={title:PropType.string};
+
+constraint added as string will be the type 
+
+//default prop
+
+Navbar.defaultProps={
+    title:"Basic";
+}
+
+if we dont pass any value to the component 
