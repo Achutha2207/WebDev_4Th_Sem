@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import PropTypes from "prop-types";
 import TextForm from "./components/TextForm";
+import About from "./components/About";
 function App() {
   return (
     <>
@@ -10,6 +11,10 @@ function App() {
       <div className="container my-5">
         <TextForm heading="Enter The Text To Analyse" />
       </div>
+      <div className="cintainer my-5">
+        <About />
+      </div>
+
     </>
   );
 }

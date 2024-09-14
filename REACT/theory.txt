@@ -1,3 +1,7 @@
+ npx create-react-app react-app
+
+
+
 typescript is a superset of js and adds static typing to the language 
 it helps us catch errors earlier in the prod
 
